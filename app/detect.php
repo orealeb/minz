@@ -129,7 +129,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
 if($mobile_browser>0){
    // do something wap
 
-$browser_t = "mobile";
+$browser_t = "web";
 
 }
 // non-mobile
@@ -193,7 +193,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'windows')>0) {
 if($mobile_browser>0){
    // do something wap
  
-$browser_t = "mobile";
+$browser_t = "web";
 
 }
 // non-mobile

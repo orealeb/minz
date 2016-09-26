@@ -11,32 +11,32 @@ include "app/config.php";
 include "app/detect.php";
 
 if ($page_name=='') {
-	include $browser_t.'/index.html';
+	include'web/index.html';
 	}
 elseif ($page_name=='index.html') {
-	include $browser_t.'/index.html';
+	include'web/index.html';
 	}
 elseif ($page_name=='about.html') {
-	include $browser_t.'/about.html';
+	include'web/about.html';
 	}
 elseif ($page_name=='works.html') {
-	include $browser_t.'/works.html';
+	include'web/works.html';
 	}
 elseif ($page_name=='blog.html') {
-	include $browser_t.'/blog.html';
+	include'web/blog.html';
 	}
 elseif ($page_name=='details.html') {
-	include $browser_t.'/details.html';
+	include'web/details.html';
 	}
 elseif ($page_name=='contact.html') {
-	include $browser_t.'/contact.html';
+	include'web/contact.html';
 	}
 elseif ($page_name=='contact-post.html') {
 	include 'app/contact.php';
 	}
 else
 	{
-		include $browser_t.'/404.html';
+		include'web/404.html';
 	}
 
 ?>
